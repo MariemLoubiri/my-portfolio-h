@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio HTML Page</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <header>
+        <h1 id="title" style="color: rgb(104, 104, 205);">Welcome to My portfolio HTML Page</h1>
+        <P class="text">portfolio page</P>
+
+    </header>
+
+    <nav>
+      <li>  <a href="#about" class="nav-item">About</a></li>  
+      <li>  <a href="#gallery" class="nav-item">Gallery</a></li>
+       <li> <a href="#contact" class="nav-item">Contact</a></li> 
+    </nav>
+
+    <main class="container">
+        <section id="about">
+            <h2>About This Page</h2>
+            <p>This is a description of a web page using semantic HTML tags.</p>
+        </section>
+
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <video controls class="video">
+            
+                <source src="FREE 5 seconds Intro Music NO COPYRIGHT.mp4" type="video/mp4">
+               
+            </video>
+
+        <section id="Contact" color="red">
+            <h2>Contact</h2>     
+            <audio controls class="audio" >
+                <source src="videoplayback (1).m4a" type="audio/mp3">
+               
+            </audio>
+        </section>
+
+        <section class="table">
+            <h2>Sample Table</h2>
+            <table>
+                    <tr>
+                        <th><font-color="black">name</font-color></th>
+                        <th><font-color="black">Age</font-color></th>
+                        <th><font-color="black">Occupation</font-color></th>
+                    </tr>
+                
+                    <tr>
+                        <td>John </td>
+                        <td>30</td>
+                        <td>Software Developer</td>
+                    </tr>
+                    <tr>
+                        <td>Jane</td>
+                        <td>28</td>
+                        <td>Graphic Designer</td>
+                    </tr>
+                    <tr>
+                        <td>Emily </td>
+                        <td>35</td>
+                        <td>devloppment</td>
+                    </tr>
+                
+            </table>
+        </section>
+
+        <section id="form">
+            <h2> Form</h2>
+            <form >
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" >
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" >
+                <input type="submit" class="btn" value="sign in">
+                <input type="reset" class="btn" value="reset">
+          
+            </form>
+        </section>
+    </main>
+
+    <footer class="number">
+        <p>number:564586356</p>
+    </footer>
+
+</body>
+</html>

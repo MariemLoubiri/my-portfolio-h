@@ -1,0 +1,58 @@
+#title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 5px;
+    display: inline;
+    padding-left 500px;;
+    margin-left: 500px;
+
+
+
+}
+nav{
+    display: inline;
+}
+body{
+    font-family: roboto;
+}
+.nav-item{
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+audio{
+    width: 250px;
+    height: 100px;
+}
+video{
+    width: 250px;
+    height: 200px;
+}
+table, th, td {
+    border: 1px solid;
+    color:blue;
+    font
+  }
+  form > * {
+    display: block;
+    
+  }
+  form {
+    background-color: #f1f1f1;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 15px;
+  }
+  .btn {
+    margin-left: 33%;
+    margin-top: 5px;
+    background-color: rgb(166, 166, 166);
+    border: none;
+    border-radius: 5px;
+    width: 60px;
+  }
+  .btn:hover {
+    background-color: black;
+    color: white;
+  }
+
+
